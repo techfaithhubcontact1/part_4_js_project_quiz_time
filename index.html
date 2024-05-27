@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Quiz Time</title>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="stylesheet" href="css/style.css">
+          <script src="js/script.js" defer></script>
+     </head>
+     <body>
+          <main class="main-container">
+
+               <!-- quiz start section  -->
+               <section class="start-quiz-sec ">
+                    <div class="start-quiz-img">
+                         <img src="img/Group 4.svg" alt="start quiz">
+                    </div>
+                    <button class="start-quiz-btn">Start Quiz</button>
+               </section>
+
+               <!-- quiz QNA section  -->
+               <section class="quiz-sec hide">
+                    <h2 class="quiz-heading">JavaScript Quiz</h2>
+                    <span class="que-sound"><img src="img/off_sound.png" alt=""><audio src=""></audio></span>
+                    <div class="quiz-manager-sec">
+                         <p class="que-count"><span class="curr-que"></span>/<span class="total-que"></span></p>
+                         <span class="que-time">60</span>
+                    </div>
+                    <h4 class="quiz-que"></h4>
+                    <div class="quiz-options">
+                    
+                    </div>
+                    <button class="quiz-btn hide">Next ></button>
+               </section>
+
+               <!-- Result section  -->
+               <section class="quiz-result hide">
+                    <h2 class="quiz-r-heading">Final Result</h2>
+                    <div class="quiz-result-group">
+                         <h4 class="result-total-que">Total : <span></span></h4>
+                         <h4 class="quiz-right-ans">Right : <span></span></h4>
+                         <h4 class="quiz-percentage">Percentage : <span></span><span>%</span></h4>
+                    </div>
+                    <p class="result-learning"></p>
+                    <div class="button-group">
+                         <button class="retry-btn"> <<< Retry</button>
+                         <button class="exit-btn">&larr; Exit</button>
+                    </div>
+               </section>
+          </main>
+     </body>
+</html>
