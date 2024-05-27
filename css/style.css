@@ -31,7 +31,6 @@ main .hide {
      gap: 4%;
      border: 1px solid rgb(0, 247, 255);
 }
-
 .start-quiz-img {
      text-align: center;
 }
@@ -54,6 +53,7 @@ main .hide {
      background: #33b338;
      box-shadow: 5px 5px 2px 2px #33b338;
 }
+
 
 /* questions and answers area  */
 .quiz-sec {
